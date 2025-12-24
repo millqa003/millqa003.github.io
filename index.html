@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Тест</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">КСЕНИЯ МИЛТОН</div>
+
+    <div class="block">
+      <div class="block-title">на связи</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="https://t.me/Milani003" target="_blank"> telegram</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:Milk003@ya.ru"> Почта</a>
+        </div>
+ <div class="block">
+      <div class="block-title"> Увлечения</div>
+      <div class="entry">
+        <a href="https://www.qa.studio/" target="_blank"> Учусь в QA.STUDIO</a>
+      </div>
+     <div class="entry">
+        <a href="https://www.chitai-gorod.ru/product/samaya-strashnaya-kniga-zastupa-vse-ottenki-padali-3037564"target="_blank"> Читаю книги</a>
+      </div>
+      <div class="entry">
+        <a
+          href="https://www.ozon.ru/product/naushniki-moondrop-blessing-3-985390334"
+          target="_blank"
+        >
+          Коллекционирую наушники
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
